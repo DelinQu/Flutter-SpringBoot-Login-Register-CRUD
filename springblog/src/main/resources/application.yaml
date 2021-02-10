@@ -6,20 +6,13 @@ server:
 spring:
   # 数据连接池
   datasource:
-    username: qdl
-    password: Linuxqdl0661
-    url: jdbc:mysql://8.129.120.82:3306/blog?useSSL=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: xxx
+    password: xxx
+    url: jdbc:mysql://xxx/blog?useSSL=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
     driver-class-name: com.mysql.cj.jdbc.Driver
     #druid 连接池
     type: com.alibaba.druid.pool.DruidDataSource
 
-#  datasource:
-#    username: root
-#    password: Linuxqdl0661
-#    url: jdbc:mysql://localhost:3306/blog?useSSL=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
-#    driver-class-name: com.mysql.cj.jdbc.Driver
-#    #druid 连接池
-#    type: com.alibaba.druid.pool.DruidDataSource
 
   # 上传服务
   servlet:
@@ -40,8 +33,8 @@ spring:
   # 邮箱
   mail:
     host: smtp.aliyun.com
-    username: qdl.cs@aliyun.com
-    password: "@Aliyunqdl0661"
+    username: xxxs@aliyun.com
+    password: "xxx"
     port: 465
     properties.smtp.auth: true
     properties.smtp.timeout: 2500
@@ -63,4 +56,4 @@ upload:
 
 # 图片网络访问路径
 img:
-  imgURL: http://8.129.120.82:8080/images/
+  imgURL: http://xxx:8080/images/

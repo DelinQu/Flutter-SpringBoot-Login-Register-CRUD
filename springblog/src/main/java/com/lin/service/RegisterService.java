@@ -56,7 +56,7 @@ public class RegisterService {
             SimpleMailMessage mailMessage = new SimpleMailMessage();
             mailMessage.setTo(user.getEmail());
             mailMessage.setSubject("Complete Registration!");
-            mailMessage.setFrom("qdl.cs@aliyun.com");
+            mailMessage.setFrom("xxx@aliyun.com");
             mailMessage.setText("为完成注册认证, 请输入验证码\n\n"+token);
 
             //发送
